@@ -141,6 +141,14 @@
                     >
                       登录
                     </button>
+
+                    <button
+                            type="button"
+                            class="btn btn-primary btn-block text-uppercase"
+                            onclick="register() "
+                    >
+                      注册
+                    </button>
                   </div>
 
                 </form>
@@ -153,8 +161,8 @@
     <footer class="tm-footer row tm-mt-small">
       <div class="col-12 font-weight-light">
         <p class="text-center text-white mb-0 px-4 small">
-          Copyright &copy; <b>2018</b> All rights reserved. 
-          
+          Copyright &copy; <b>2018</b> All rights reserved.
+
         </p>
       </div>
     </footer>
@@ -162,5 +170,28 @@
     <!-- https://jquery.com/download/ -->
     <script src="js/bootstrap.min.js"></script>
     <!-- https://getbootstrap.com/ -->
+    <script>
+
+      function register() {
+        let username = $("#username").val()
+        let password = $("#password").val()
+        console.log(username+"  "+ password)
+        $.ajax({
+          url: "/register",
+          type: "post",
+          dataType: "json",
+          data:{
+            "username": username,
+            "password": password
+          },
+          success: function (data) {
+            alert(data.message)
+          },
+          error: function () {
+            alert("注册失败")
+          }
+        })
+      }
+    </script>
   </body>
 </html>
