@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -90,8 +90,8 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link d-block" href="login.html">
-                                Admin, <b>Logout</b>
+                            <a class="nav-link d-block" href="/logout" th:text="${session.USER_LOGIN.getUsername()} + ' Click Logout'">
+
                             </a>
                         </li>
                     </ul>
