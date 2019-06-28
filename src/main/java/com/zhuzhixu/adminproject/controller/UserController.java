@@ -2,6 +2,7 @@ package com.zhuzhixu.adminproject.controller;
 
 import com.zhuzhixu.adminproject.entity.UserEntity;
 import com.zhuzhixu.adminproject.service.UserService;
+import com.zhuzhixu.adminproject.util.MD5Util;
 import com.zhuzhixu.adminproject.util.MessageBody;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -39,7 +40,7 @@ public class UserController {
         if(entity == null){
             return "login";
         }
-        Boolean flag = entity.getPassword().equals(password);
+        Boolean flag = entity.getPassword().equals(MD5Util.getMD5(password));
         if (flag){
             request.getSession().setAttribute("USER_LOGIN", entity);
             request.getSession().setAttribute("userList", userService.getAllUser());
@@ -58,7 +59,7 @@ public class UserController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
     public MessageBody register(String username, String password){
-        userService.insertUserEntity(username, password);
+        userService.insertUserEntity(username, MD5Util.getMD5(password));
         return MessageBody.successMessage("注册成功");
     }
 
