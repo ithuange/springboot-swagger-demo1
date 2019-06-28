@@ -26,7 +26,8 @@ public class UserController {
     }
 
     @RequestMapping("/index")
-    public String index(){
+    public String index(HttpSession session){
+        session.setAttribute("userList", userService.getAllUser());
         return "index";
     }
 
@@ -39,6 +40,7 @@ public class UserController {
         Boolean flag = entity.getPassword().equals(password);
         if (flag){
             request.getSession().setAttribute("USER_LOGIN", entity);
+            request.getSession().setAttribute("userList", userService.getAllUser());
             return "redirect:index";
         }
         request.setAttribute("message","密码错误或者用户名不存在");
@@ -50,4 +52,6 @@ public class UserController {
         session.invalidate();
         return "redirect:/";
     }
+
+
 }
