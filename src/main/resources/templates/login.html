@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -113,7 +113,7 @@
           <div class="col-12">
             <form action="/login" method="post" class="tm-login-form">
               <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username">[[#{login.username}]]</label>
                 <input
                         name="username"
                         type="text"
@@ -124,7 +124,7 @@
                 />
               </div>
               <div class="form-group mt-3">
-                <label for="password">Password</label>
+                <label for="password">[[#{login.password}]]</label>
                 <input
                         name="password"
                         type="password"
@@ -138,16 +138,18 @@
                 <button
                         type="submit"
                         class="btn btn-primary btn-block text-uppercase"
+                        th:text="#{login.loginButton}"
                 >
-                  登录
+
                 </button>
 
                 <button
                         type="button"
                         class="btn btn-primary btn-block text-uppercase"
                         onclick="register() "
+                        th:text="#{login.registerButton}"
                 >
-                  注册
+
                 </button>
               </div>
 
