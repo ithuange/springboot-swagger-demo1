@@ -18,15 +18,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/")
+    @RequestMapping({"/","/login"})
     public String first(){
         return "login";
     }
 
-    @RequestMapping("/login")
-    public String login(){
-        return "login";
-    }
 
     @RequestMapping("/index")
     public String index(HttpSession session){

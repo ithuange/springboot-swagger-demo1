@@ -1,458 +1,425 @@
-2019-06-29 16:28:26.003  INFO 10732 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 10732 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:28:26.006  INFO 10732 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:28:26.732  INFO 10732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:28:26.735  INFO 10732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:28:26.763  INFO 10732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-29 16:28:27.121  INFO 10732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$b5818910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:28:27.129  INFO 10732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29361646] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:28:27.442  INFO 10732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:28:27.491  INFO 10732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:28:27.491  INFO 10732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:28:27.640  INFO 10732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:28:27.640  INFO 10732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1590 ms
-2019-06-29 16:28:28.754  INFO 10732 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:28:28.829  INFO 10732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:28:28.833  INFO 10732 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.262 seconds (JVM running for 5.001)
-2019-06-29 16:28:33.538  INFO 10732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:28:33.539  INFO 10732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:28:33.548  INFO 10732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-06-29 16:28:33.587  WARN 10732 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /products
-2019-06-29 16:28:38.232  WARN 10732 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/fontawesome.min.css
-2019-06-29 16:28:38.233  WARN 10732 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/bootstrap.min.css
-2019-06-29 16:28:38.239  WARN 10732 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/templatemo-style.css
-2019-06-29 16:28:38.242  WARN 10732 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /products/js/jquery-3.3.1.min.js
-2019-06-29 16:28:38.252  WARN 10732 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /products/js/bootstrap.min.js
-2019-06-29 16:28:42.036  WARN 10732 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/fontawesome.min.css
-2019-06-29 16:28:42.037  WARN 10732 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/bootstrap.min.css
-2019-06-29 16:28:42.043  WARN 10732 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /products/css/templatemo-style.css
-2019-06-29 16:30:19.006  INFO 3920 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 3920 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:30:19.009  INFO 3920 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:30:19.718  INFO 3920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:30:19.721  INFO 3920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:30:19.749  INFO 3920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-29 16:30:20.114  INFO 3920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$341c8fb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:30:20.123  INFO 3920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7d11cea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:30:20.596  INFO 3920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:30:20.667  INFO 3920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:30:20.667  INFO 3920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:30:20.941  INFO 3920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:30:20.941  INFO 3920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1882 ms
-2019-06-29 16:30:22.248  INFO 3920 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:30:22.283  INFO 3920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:30:22.287  INFO 3920 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.783 seconds (JVM running for 4.845)
-2019-06-29 16:30:35.748  INFO 3920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:30:35.748  INFO 3920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:30:35.757  INFO 3920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 16:30:36.192  WARN 3920 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:30:36.200  WARN 3920 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:30:40.154  WARN 3920 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /products/index.html
-2019-06-29 16:30:52.156  INFO 3920 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:30:52.309  INFO 3920 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:30:53.801  WARN 3920 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /products
-2019-06-29 16:31:30.648  INFO 3920 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:31:30.856  INFO 3920 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:31:36.211  INFO 11640 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 11640 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:31:36.216  INFO 11640 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:31:36.885  INFO 11640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:31:36.888  INFO 11640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:31:36.915  INFO 11640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-29 16:31:37.280  INFO 11640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$a9221cbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:31:37.290  INFO 11640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cd6a9f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:31:37.594  INFO 11640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:31:37.617  INFO 11640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:31:37.617  INFO 11640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:31:37.730  INFO 11640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:31:37.731  INFO 11640 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1465 ms
-2019-06-29 16:31:38.788  INFO 11640 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:31:38.825  INFO 11640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:31:38.829  INFO 11640 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.047 seconds (JVM running for 4.051)
-2019-06-29 16:31:43.213  INFO 11640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:31:43.213  INFO 11640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:31:43.223  INFO 11640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 16:31:43.265  WARN 11640 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /products
-2019-06-29 16:32:21.305  INFO 10912 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 10912 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:32:21.308  INFO 10912 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:32:21.991  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:32:21.993  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:32:22.018  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2019-06-29 16:32:22.364  INFO 10912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$9a0851a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:32:22.373  INFO 10912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbcdedf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:32:22.693  INFO 10912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:32:22.715  INFO 10912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:32:22.715  INFO 10912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:32:22.830  INFO 10912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:32:22.830  INFO 10912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1481 ms
-2019-06-29 16:32:23.889  INFO 10912 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:32:23.925  INFO 10912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:32:23.928  INFO 10912 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.051 seconds (JVM running for 4.122)
-2019-06-29 16:32:28.679  INFO 10912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:32:28.680  INFO 10912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:32:28.689  INFO 10912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-06-29 16:32:37.517  WARN 10912 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:32:37.534  WARN 10912 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:32:39.265  WARN 10912 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:32:39.284  WARN 10912 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:36:07.524  WARN 10912 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:36:07.545  WARN 10912 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:36:09.905  WARN 10912 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /accounts.html
-2019-06-29 16:44:07.265  INFO 12104 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 12104 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:44:07.269  INFO 12104 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:44:07.984  INFO 12104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:44:07.987  INFO 12104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:44:08.019  INFO 12104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-29 16:44:08.351  INFO 12104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$3585c5d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:44:08.361  INFO 12104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a93a5308] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:44:08.673  INFO 12104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:44:08.710  INFO 12104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:44:08.710  INFO 12104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:44:08.828  INFO 12104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:44:08.828  INFO 12104 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1512 ms
-2019-06-29 16:44:09.976  INFO 12104 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:44:10.012  INFO 12104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:44:10.016  INFO 12104 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.339 seconds (JVM running for 4.423)
-2019-06-29 16:44:15.742  INFO 12104 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:44:15.743  INFO 12104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:44:15.753  INFO 12104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 16:44:15.832  INFO 12104 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:44:15.955  INFO 12104 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:44:16.413  WARN 12104 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:44:16.982  WARN 12104 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:45:51.585  INFO 12104 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:45:51.604  INFO 12104 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:45:56.062  INFO 220 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 220 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:45:56.065  INFO 220 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:45:56.770  INFO 220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:45:56.772  INFO 220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:45:56.798  INFO 220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2019-06-29 16:45:57.145  INFO 220 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$847cdfaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:45:57.155  INFO 220 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8316ce5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:45:57.471  INFO 220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:45:57.493  INFO 220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:45:57.493  INFO 220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:45:57.605  INFO 220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:45:57.606  INFO 220 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1498 ms
-2019-06-29 16:45:58.646  INFO 220 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:45:58.683  INFO 220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:45:58.685  INFO 220 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.159 seconds (JVM running for 4.236)
-2019-06-29 16:46:00.540  INFO 220 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:46:00.541  INFO 220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:46:00.549  INFO 220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 16:46:00.609  INFO 220 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:46:00.745  INFO 220 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:46:01.222  WARN 220 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:46:06.383  WARN 220 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:46:13.092  WARN 220 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:46:13.155  WARN 220 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:46:30.059  INFO 220 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:46:30.077  INFO 220 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:46:34.377  INFO 9860 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 9860 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:46:34.380  INFO 9860 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:46:35.042  INFO 9860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:46:35.045  INFO 9860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:46:35.074  INFO 9860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 16:46:35.425  INFO 9860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$ad75c472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:46:35.435  INFO 9860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$212a51a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:46:35.748  INFO 9860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:46:35.770  INFO 9860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:46:35.770  INFO 9860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:46:35.885  INFO 9860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:46:35.885  INFO 9860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1465 ms
-2019-06-29 16:46:36.953  INFO 9860 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:46:36.990  INFO 9860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:46:36.993  INFO 9860 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.093 seconds (JVM running for 4.312)
-2019-06-29 16:46:38.496  INFO 9860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:46:38.496  INFO 9860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:46:38.506  INFO 9860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 16:46:38.799  WARN 9860 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:47:06.842  INFO 14684 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14684 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:47:06.846  INFO 14684 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:47:07.510  INFO 14684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:47:07.513  INFO 14684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:47:07.540  INFO 14684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-29 16:47:07.882  INFO 14684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$18b98197] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:47:07.890  INFO 14684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c6e0ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:47:08.188  INFO 14684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:47:08.223  INFO 14684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:47:08.223  INFO 14684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:47:08.334  INFO 14684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:47:08.334  INFO 14684 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1443 ms
-2019-06-29 16:47:09.348  INFO 14684 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:47:09.381  INFO 14684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:47:09.384  INFO 14684 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.052 seconds (JVM running for 4.238)
-2019-06-29 16:47:13.515  INFO 14684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:47:13.515  INFO 14684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:47:13.525  INFO 14684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 16:47:13.816  WARN 14684 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:48:15.890  INFO 14872 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14872 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:48:15.893  INFO 14872 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:48:16.580  INFO 14872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:48:16.582  INFO 14872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:48:16.610  INFO 14872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-06-29 16:48:16.955  INFO 14872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$cca44e77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:48:16.965  INFO 14872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4058dbad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:48:17.278  INFO 14872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:48:17.299  INFO 14872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:48:17.300  INFO 14872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:48:17.417  INFO 14872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:48:17.418  INFO 14872 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1469 ms
-2019-06-29 16:48:18.469  INFO 14872 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:48:18.507  INFO 14872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:48:18.511  INFO 14872 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.081 seconds (JVM running for 4.177)
-2019-06-29 16:48:20.193  INFO 14872 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:48:20.194  INFO 14872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:48:20.204  INFO 14872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 16:48:20.518  WARN 14872 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:48:21.978  WARN 14872 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:48:26.555  WARN 14872 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:48:26.568  WARN 14872 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:49:23.956  WARN 14872 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.js
-2019-06-29 16:49:44.742  WARN 14872 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:30.792  WARN 14872 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /load.js
-2019-06-29 16:50:34.485  WARN 14872 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /load.js
-2019-06-29 16:50:39.635  WARN 14872 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:46.539  INFO 15060 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 15060 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:50:46.542  INFO 15060 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:50:47.282  INFO 15060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:50:47.285  INFO 15060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:50:47.327  INFO 15060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
-2019-06-29 16:50:47.681  INFO 15060 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$50338850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:50:47.691  INFO 15060 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3e81586] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:50:48.022  INFO 15060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:50:48.047  INFO 15060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:50:48.047  INFO 15060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:50:48.158  INFO 15060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:50:48.158  INFO 15060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1568 ms
-2019-06-29 16:50:49.196  INFO 15060 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:50:49.235  INFO 15060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:50:49.238  INFO 15060 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.123 seconds (JVM running for 4.174)
-2019-06-29 16:50:54.252  INFO 15060 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:50:54.252  INFO 15060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:50:54.260  INFO 15060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 16:50:54.298  WARN 15060 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:54.854  WARN 15060 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.055  WARN 15060 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.215  WARN 15060 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.519  WARN 15060 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.679  WARN 15060 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.815  WARN 15060 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:50:55.942  WARN 15060 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:51:16.834  WARN 15060 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:51:18.361  WARN 15060 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:51:18.364  WARN 15060 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:51:28.420  INFO 15060 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:51:28.556  INFO 15060 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:51:28.618  WARN 15060 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:51:28.735  WARN 15060 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:51:28.761  WARN 15060 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:51:35.550  WARN 15060 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:51:35.637  WARN 15060 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:51:35.637  WARN 15060 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:51:35.702  WARN 15060 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:52:08.063  INFO 15060 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:52:08.076  INFO 15060 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:52:12.994  INFO 14892 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14892 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:52:12.998  INFO 14892 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:52:13.859  INFO 14892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:52:13.861  INFO 14892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:52:13.890  INFO 14892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 16:52:14.206  INFO 14892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$86989401] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:52:14.215  INFO 14892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa4d2137] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:52:14.517  INFO 14892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:52:14.539  INFO 14892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:52:14.539  INFO 14892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:52:14.648  INFO 14892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:52:14.649  INFO 14892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1600 ms
-2019-06-29 16:52:15.689  INFO 14892 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:52:15.722  INFO 14892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:52:15.725  INFO 14892 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.164 seconds (JVM running for 4.241)
-2019-06-29 16:52:18.143  INFO 14892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:52:18.143  INFO 14892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:52:18.152  INFO 14892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 16:52:18.226  INFO 14892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:52:18.377  INFO 14892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:52:18.852  WARN 14892 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/load.js
-2019-06-29 16:52:20.221  WARN 14892 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js.map
-2019-06-29 16:52:20.225  WARN 14892 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css.map
-2019-06-29 16:52:55.872  INFO 14892 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:52:55.886  INFO 14892 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:53:21.394  INFO 18156 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 18156 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:53:21.397  INFO 18156 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:53:22.114  INFO 18156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:53:22.116  INFO 18156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:53:22.147  INFO 18156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-29 16:53:22.506  INFO 18156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$a77fd91c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:53:22.517  INFO 18156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b346652] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:53:22.860  INFO 18156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:53:22.896  INFO 18156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:53:22.897  INFO 18156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:53:23.012  INFO 18156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:53:23.013  INFO 18156 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1577 ms
-2019-06-29 16:53:23.707  INFO 18156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:53:23.901  INFO 18156 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 16:53:24.321  INFO 18156 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:53:24.357  INFO 18156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:53:24.361  INFO 18156 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.438 seconds (JVM running for 4.68)
-2019-06-29 16:53:24.587  INFO 18156 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:53:24.587  INFO 18156 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:53:24.594  INFO 18156 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2019-06-29 16:53:25.242  INFO 18156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 16:53:25.374  INFO 18156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 16:54:15.007  INFO 18156 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:54:15.008  INFO 18156 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 16:54:15.022  INFO 18156 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 16:54:19.591  INFO 4720 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 4720 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:54:19.595  INFO 4720 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:54:20.291  INFO 4720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:54:20.293  INFO 4720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:54:20.323  INFO 4720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 16:54:20.687  INFO 4720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$c97cb6ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:54:20.695  INFO 4720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d314424] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:54:21.006  INFO 4720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:54:21.028  INFO 4720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:54:21.028  INFO 4720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:54:21.141  INFO 4720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:54:21.141  INFO 4720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1500 ms
-2019-06-29 16:54:21.765  INFO 4720 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:54:21.910  INFO 4720 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 16:54:22.300  INFO 4720 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:54:22.336  INFO 4720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:54:22.339  INFO 4720 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.199 seconds (JVM running for 4.323)
-2019-06-29 16:54:24.024  INFO 4720 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:54:24.025  INFO 4720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:54:24.033  INFO 4720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2019-06-29 16:55:04.495  INFO 4720 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:55:09.170  INFO 1104 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 1104 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:55:09.173  INFO 1104 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:55:09.881  INFO 1104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:55:09.883  INFO 1104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:55:09.914  INFO 1104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-29 16:55:10.258  INFO 1104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$c3e14485] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:55:10.266  INFO 1104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3795d1bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:55:10.569  INFO 1104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:55:10.592  INFO 1104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:55:10.592  INFO 1104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:55:10.709  INFO 1104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:55:10.709  INFO 1104 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1479 ms
-2019-06-29 16:55:11.348  INFO 1104 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:55:11.480  INFO 1104 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 16:55:11.874  INFO 1104 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:55:11.921  INFO 1104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:55:11.925  INFO 1104 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.199 seconds (JVM running for 4.302)
-2019-06-29 16:55:13.210  INFO 1104 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:55:13.211  INFO 1104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:55:13.219  INFO 1104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 16:55:37.810  INFO 1104 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:55:41.957  INFO 17492 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 17492 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:55:41.961  INFO 17492 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:55:42.651  INFO 17492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:55:42.653  INFO 17492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:55:42.683  INFO 17492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-06-29 16:55:43.021  INFO 17492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$c4caeca8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:55:43.030  INFO 17492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$387f79de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:55:43.328  INFO 17492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:55:43.350  INFO 17492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:55:43.350  INFO 17492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:55:43.465  INFO 17492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:55:43.465  INFO 17492 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
-2019-06-29 16:55:44.106  INFO 17492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:55:44.244  INFO 17492 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 16:55:44.590  INFO 17492 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:55:44.627  INFO 17492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:55:44.632  INFO 17492 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.123 seconds (JVM running for 4.155)
-2019-06-29 16:55:48.309  INFO 17492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:55:48.309  INFO 17492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:55:48.318  INFO 17492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-06-29 16:58:03.630  INFO 17492 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:59:21.380  INFO 16680 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 16680 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 16:59:21.383  INFO 16680 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 16:59:22.055  INFO 16680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 16:59:22.058  INFO 16680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 16:59:22.087  INFO 16680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 16:59:22.447  INFO 16680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$17e64f39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:59:22.457  INFO 16680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b9adc6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 16:59:22.802  INFO 16680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 16:59:22.832  INFO 16680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 16:59:22.832  INFO 16680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 16:59:23.053  INFO 16680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 16:59:23.054  INFO 16680 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1628 ms
-2019-06-29 16:59:24.441  INFO 16680 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 16:59:24.576  INFO 16680 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 16:59:24.927  INFO 16680 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 16:59:24.964  INFO 16680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 16:59:24.968  INFO 16680 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 4.089 seconds (JVM running for 5.182)
-2019-06-29 16:59:30.916  INFO 16680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 16:59:30.916  INFO 16680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 16:59:30.927  INFO 16680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2019-06-29 17:00:08.828  INFO 16680 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:00:13.963  INFO 18664 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 18664 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 17:00:13.966  INFO 18664 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 17:00:14.656  INFO 18664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 17:00:14.659  INFO 18664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 17:00:14.695  INFO 18664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-2019-06-29 17:00:15.020  INFO 18664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$cca490f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:00:15.028  INFO 18664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40591e27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:00:15.315  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 17:00:15.339  INFO 18664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 17:00:15.340  INFO 18664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 17:00:15.452  INFO 18664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 17:00:15.453  INFO 18664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1439 ms
-2019-06-29 17:00:16.082  INFO 18664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:00:16.213  INFO 18664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 17:00:16.549  INFO 18664 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 17:00:16.584  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 17:00:16.588  INFO 18664 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.015 seconds (JVM running for 4.366)
-2019-06-29 17:00:16.773  INFO 18664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 17:00:16.773  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 17:00:16.782  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-06-29 17:00:48.468  INFO 18664 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 17:00:48.624  INFO 18664 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 17:03:26.293  INFO 18664 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:03:26.293  INFO 18664 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 17:03:26.307  INFO 18664 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 17:03:32.646  INFO 2976 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 2976 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 17:03:32.650  INFO 2976 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 17:03:33.333  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 17:03:33.336  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 17:03:33.365  INFO 2976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 17:03:33.716  INFO 2976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$c2174081] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:03:33.725  INFO 2976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35cbcdb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:03:34.026  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 17:03:34.046  INFO 2976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 17:03:34.047  INFO 2976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 17:03:34.162  INFO 2976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 17:03:34.163  INFO 2976 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1469 ms
-2019-06-29 17:03:34.785  INFO 2976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:03:34.917  INFO 2976 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 17:03:35.267  INFO 2976 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 17:03:35.304  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 17:03:35.308  INFO 2976 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.106 seconds (JVM running for 4.221)
-2019-06-29 17:03:37.794  INFO 2976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 17:03:37.794  INFO 2976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 17:03:37.801  INFO 2976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2019-06-29 17:03:37.868  INFO 2976 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 17:03:38.005  INFO 2976 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-06-29 17:06:36.614  INFO 2976 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:06:36.614  INFO 2976 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-06-29 17:06:36.627  INFO 2976 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-06-29 17:06:40.957  INFO 12064 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 12064 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
-2019-06-29 17:06:40.961  INFO 12064 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
-2019-06-29 17:06:41.653  INFO 12064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-06-29 17:06:41.655  INFO 12064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-29 17:06:41.684  INFO 12064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-06-29 17:06:42.047  INFO 12064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$319ef2e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:06:42.057  INFO 12064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a553801b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-29 17:06:42.369  INFO 12064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-06-29 17:06:42.395  INFO 12064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-06-29 17:06:42.395  INFO 12064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-06-29 17:06:42.523  INFO 12064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-06-29 17:06:42.523  INFO 12064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1512 ms
-2019-06-29 17:06:43.176  INFO 12064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-29 17:06:43.311  INFO 12064 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-29 17:06:43.671  INFO 12064 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2019-06-29 17:06:43.706  INFO 12064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-29 17:06:43.709  INFO 12064 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.229 seconds (JVM running for 4.299)
-2019-06-29 17:07:17.332  INFO 12064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-29 17:07:17.332  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-06-29 17:07:17.342  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-06-29 17:07:17.417  INFO 12064 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-06-29 17:07:17.542  INFO 12064 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-30 13:27:22.642  INFO 10552 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 10552 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:27:22.651  INFO 10552 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:27:24.104  INFO 10552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:27:24.107  INFO 10552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:27:24.135  INFO 10552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-06-30 13:27:24.472  INFO 10552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$93396caf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:27:24.479  INFO 10552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6edf9e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:27:24.747  INFO 10552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:27:24.769  INFO 10552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:27:24.769  INFO 10552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:27:24.889  INFO 10552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/admin]  : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:27:24.889  INFO 10552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1958 ms
+2019-06-30 13:27:25.471  INFO 10552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:27:25.583  INFO 10552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:27:25.863  INFO 10552 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:27:25.889  INFO 10552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/admin'
+2019-06-30 13:27:25.892  INFO 10552 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.799 seconds (JVM running for 5.746)
+2019-06-30 13:28:03.307  INFO 10552 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/admin]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:28:03.307  INFO 10552 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:28:03.315  INFO 10552 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-30 13:28:48.124  INFO 11196 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 11196 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:28:48.130  INFO 11196 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:28:48.793  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:28:48.795  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:28:48.824  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-30 13:28:49.152  INFO 11196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$1ea2fff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:28:49.161  INFO 11196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92578d2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:28:49.469  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:28:49.492  INFO 11196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:28:49.493  INFO 11196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:28:49.610  INFO 11196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:28:49.610  INFO 11196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1436 ms
+2019-06-30 13:28:50.230  INFO 11196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:28:50.359  INFO 11196 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:28:50.710  INFO 11196 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:28:50.745  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:28:50.749  INFO 11196 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.989 seconds (JVM running for 4.352)
+2019-06-30 13:30:31.499  INFO 11196 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:30:36.024  INFO 7496 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 7496 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:30:36.027  INFO 7496 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:30:36.723  INFO 7496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:30:36.725  INFO 7496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:30:36.756  INFO 7496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-30 13:30:37.100  INFO 7496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$ccd93e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:30:37.110  INFO 7496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$408dcbc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:30:37.417  INFO 7496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:30:37.440  INFO 7496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:30:37.441  INFO 7496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:30:37.558  INFO 7496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/admin]  : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:30:37.558  INFO 7496 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1485 ms
+2019-06-30 13:30:38.167  INFO 7496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:30:38.293  INFO 7496 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:30:38.635  INFO 7496 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:30:38.672  INFO 7496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/admin'
+2019-06-30 13:30:38.676  INFO 7496 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.085 seconds (JVM running for 4.353)
+2019-06-30 13:30:41.580  INFO 7496 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/admin]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:30:41.580  INFO 7496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:30:41.589  INFO 7496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-30 13:31:19.173  INFO 7496 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:31:23.291  INFO 9824 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 9824 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:31:23.295  INFO 9824 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:31:23.979  INFO 9824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:31:23.981  INFO 9824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:31:24.011  INFO 9824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-30 13:31:24.339  INFO 9824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$f7013017] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:31:24.348  INFO 9824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ab5bd4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:31:24.660  INFO 9824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:31:24.680  INFO 9824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:31:24.681  INFO 9824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:31:24.791  INFO 9824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:31:24.792  INFO 9824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1442 ms
+2019-06-30 13:31:25.382  INFO 9824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:31:25.508  INFO 9824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:31:25.859  INFO 9824 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:31:25.897  INFO 9824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:31:25.901  INFO 9824 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.104 seconds (JVM running for 4.053)
+2019-06-30 13:31:29.914  INFO 9824 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:31:29.914  INFO 9824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:31:29.921  INFO 9824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 13:32:37.604  INFO 9824 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:32:42.042  INFO 5896 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 5896 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:32:42.045  INFO 5896 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:32:42.781  INFO 5896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:32:42.783  INFO 5896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:32:42.812  INFO 5896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-30 13:32:43.141  INFO 5896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$14d4f6b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:32:43.150  INFO 5896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$888983ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:32:43.478  INFO 5896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:32:43.500  INFO 5896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:32:43.500  INFO 5896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:32:43.616  INFO 5896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:32:43.616  INFO 5896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1530 ms
+2019-06-30 13:32:44.247  INFO 5896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:32:44.395  INFO 5896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:32:44.729  INFO 5896 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:32:44.760  INFO 5896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:32:44.764  INFO 5896 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.232 seconds (JVM running for 4.313)
+2019-06-30 13:32:48.826  INFO 5896 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:32:48.826  INFO 5896 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:32:48.835  INFO 5896 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-30 13:34:17.224  INFO 5896 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:34:22.045  INFO 11976 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 11976 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:34:22.049  INFO 11976 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:34:22.733  INFO 11976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:34:22.735  INFO 11976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:34:22.763  INFO 11976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-30 13:34:23.100  INFO 11976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$e071169d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:34:23.109  INFO 11976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5425a3d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:34:23.412  INFO 11976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:34:23.434  INFO 11976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:34:23.435  INFO 11976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:34:23.549  INFO 11976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:34:23.549  INFO 11976 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1447 ms
+2019-06-30 13:34:24.166  INFO 11976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:34:24.295  INFO 11976 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:34:24.631  INFO 11976 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:34:24.667  INFO 11976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:34:24.671  INFO 11976 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.152 seconds (JVM running for 4.211)
+2019-06-30 13:34:34.928  INFO 11976 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:34:34.928  INFO 11976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:34:34.936  INFO 11976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-30 13:37:13.724  INFO 11976 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:37:38.657  INFO 11552 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 11552 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:37:38.659  INFO 11552 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:37:39.358  INFO 11552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:37:39.360  INFO 11552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:37:39.384  INFO 11552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-30 13:37:39.691  INFO 11552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$57c90314] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:37:39.697  INFO 11552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb7d904a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:37:39.923  INFO 11552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:37:39.944  INFO 11552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:37:39.944  INFO 11552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:37:40.057  INFO 11552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:37:40.058  INFO 11552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1341 ms
+2019-06-30 13:37:40.569  INFO 11552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:37:40.710  INFO 11552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:37:41.053  INFO 11552 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:37:41.076  INFO 11552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:37:41.079  INFO 11552 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.804 seconds (JVM running for 3.593)
+2019-06-30 13:37:51.202  INFO 11552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:37:51.202  INFO 11552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:37:51.209  INFO 11552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 13:43:34.562  INFO 4440 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 4440 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:43:34.564  INFO 4440 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:43:35.372  INFO 4440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:43:35.374  INFO 4440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:43:35.398  INFO 4440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-06-30 13:43:35.684  INFO 4440 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$bab5138a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:43:35.690  INFO 4440 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e69a0c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:43:35.912  INFO 4440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:43:35.932  INFO 4440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:43:35.933  INFO 4440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:43:36.040  INFO 4440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:43:36.040  INFO 4440 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1404 ms
+2019-06-30 13:43:36.537  INFO 4440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:43:36.643  INFO 4440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:43:36.900  INFO 4440 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:43:36.925  INFO 4440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:43:36.927  INFO 4440 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.737 seconds (JVM running for 3.484)
+2019-06-30 13:43:46.017  INFO 4440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:43:46.018  INFO 4440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:43:46.023  INFO 4440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-06-30 13:47:57.059  INFO 10800 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 10800 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 13:47:57.073  INFO 10800 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 13:47:57.804  INFO 10800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 13:47:57.806  INFO 10800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 13:47:57.829  INFO 10800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-06-30 13:47:58.097  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$1e54e14a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:47:58.102  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92096e80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 13:47:58.322  INFO 10800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 13:47:58.341  INFO 10800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 13:47:58.342  INFO 10800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 13:47:58.457  INFO 10800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 13:47:58.457  INFO 10800 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1322 ms
+2019-06-30 13:47:58.943  INFO 10800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 13:47:59.048  INFO 10800 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 13:47:59.315  INFO 10800 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 13:47:59.339  INFO 10800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 13:47:59.342  INFO 10800 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.641 seconds (JVM running for 3.384)
+2019-06-30 13:48:11.380  INFO 10800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 13:48:11.381  INFO 10800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 13:48:11.387  INFO 10800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 13:48:24.427  INFO 10800 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-30 13:48:24.621  INFO 10800 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-30 20:14:06.079  INFO 2988 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 2988 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:14:06.082  INFO 2988 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:14:07.070  INFO 2988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:14:07.072  INFO 2988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:14:07.102  INFO 2988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-30 20:14:07.409  INFO 2988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$f5c68b25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:14:07.416  INFO 2988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$697b185b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:14:07.652  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:14:07.672  INFO 2988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:14:07.672  INFO 2988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:14:07.788  INFO 2988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:14:07.788  INFO 2988 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1664 ms
+2019-06-30 20:14:08.320  INFO 2988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:14:08.434  INFO 2988 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:14:08.718  INFO 2988 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:14:08.744  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:14:08.749  INFO 2988 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.009 seconds (JVM running for 3.795)
+2019-06-30 20:14:15.841  INFO 2988 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:14:15.842  INFO 2988 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:14:15.850  INFO 2988 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-30 20:16:04.343  INFO 14100 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14100 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:16:04.346  INFO 14100 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:16:05.238  INFO 14100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:16:05.240  INFO 14100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:16:05.266  INFO 14100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-30 20:16:05.565  INFO 14100 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$468956c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:16:05.571  INFO 14100 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba3de3fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:16:05.797  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:16:05.816  INFO 14100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:16:05.816  INFO 14100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:16:05.926  INFO 14100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:16:05.927  INFO 14100 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1528 ms
+2019-06-30 20:16:06.451  INFO 14100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:16:06.562  INFO 14100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:16:06.836  INFO 14100 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:16:06.864  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:16:06.867  INFO 14100 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.903 seconds (JVM running for 3.704)
+2019-06-30 20:16:10.136  INFO 14100 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:16:10.136  INFO 14100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:16:10.143  INFO 14100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-30 20:19:18.483  INFO 14884 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14884 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:19:18.486  INFO 14884 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:19:19.314  INFO 14884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:19:19.316  INFO 14884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:19:19.343  INFO 14884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-30 20:19:19.653  INFO 14884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$f833c60e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:19:19.659  INFO 14884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6be85344] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:19:19.888  INFO 14884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:19:19.910  INFO 14884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:19:19.910  INFO 14884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:19:20.023  INFO 14884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:19:20.023  INFO 14884 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1495 ms
+2019-06-30 20:19:20.912  INFO 14884 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:19:20.938  INFO 14884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:19:20.941  INFO 14884 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.856 seconds (JVM running for 3.791)
+2019-06-30 20:19:23.938  INFO 14884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:19:23.938  INFO 14884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:19:23.947  INFO 14884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-30 20:19:24.200  WARN 14884 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css
+2019-06-30 20:19:24.207  WARN 14884 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/fontawesome.min.css
+2019-06-30 20:19:24.221  WARN 14884 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /js/jquery-3.3.1.min.js
+2019-06-30 20:19:24.222  WARN 14884 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /css/templatemo-style.css
+2019-06-30 20:19:24.223  WARN 14884 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js
+2019-06-30 20:19:24.994  WARN 14884 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/fontawesome.min.css
+2019-06-30 20:19:25.001  WARN 14884 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css
+2019-06-30 20:19:25.007  WARN 14884 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /css/templatemo-style.css
+2019-06-30 20:19:25.007  WARN 14884 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/jquery-3.3.1.min.js
+2019-06-30 20:19:25.013  WARN 14884 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js
+2019-06-30 20:19:25.457  WARN 14884 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/fontawesome.min.css
+2019-06-30 20:19:25.466  WARN 14884 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css
+2019-06-30 20:19:25.468  WARN 14884 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /css/templatemo-style.css
+2019-06-30 20:19:25.474  WARN 14884 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /js/jquery-3.3.1.min.js
+2019-06-30 20:19:25.479  WARN 14884 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js
+2019-06-30 20:19:25.737  WARN 14884 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /css/fontawesome.min.css
+2019-06-30 20:19:25.743  WARN 14884 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /css/bootstrap.min.css
+2019-06-30 20:19:25.748  WARN 14884 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /css/templatemo-style.css
+2019-06-30 20:19:25.753  WARN 14884 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/jquery-3.3.1.min.js
+2019-06-30 20:19:25.761  WARN 14884 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /js/bootstrap.min.js
+2019-06-30 20:19:44.928  INFO 14404 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14404 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:19:44.930  INFO 14404 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:19:45.651  INFO 14404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:19:45.653  INFO 14404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:19:45.677  INFO 14404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-06-30 20:19:45.961  INFO 14404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$a80cda98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:19:45.969  INFO 14404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1bc167ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:19:46.193  INFO 14404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:19:46.211  INFO 14404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:19:46.211  INFO 14404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:19:46.315  INFO 14404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:19:46.315  INFO 14404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1346 ms
+2019-06-30 20:19:46.843  INFO 14404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:19:46.958  INFO 14404 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:19:47.238  INFO 14404 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:19:47.264  INFO 14404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:19:47.267  INFO 14404 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.69 seconds (JVM running for 3.438)
+2019-06-30 20:19:50.208  INFO 14404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:19:50.208  INFO 14404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:19:50.215  INFO 14404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-06-30 20:23:54.840  INFO 13840 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 13840 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:23:54.842  INFO 13840 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:23:55.635  INFO 13840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:23:55.637  INFO 13840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:23:55.661  INFO 13840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-06-30 20:23:55.940  INFO 13840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$30a8411] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:23:55.947  INFO 13840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76bf1147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:23:56.176  INFO 13840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:23:56.197  INFO 13840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:23:56.198  INFO 13840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:23:56.308  INFO 13840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:23:56.309  INFO 13840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1405 ms
+2019-06-30 20:23:56.815  INFO 13840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:23:56.930  INFO 13840 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:23:57.200  INFO 13840 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:23:57.227  INFO 13840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:23:57.230  INFO 13840 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.717 seconds (JVM running for 3.474)
+2019-06-30 20:24:02.657  INFO 13840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:24:02.657  INFO 13840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:24:02.663  INFO 13840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 20:24:29.397  INFO 9212 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 9212 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:24:29.399  INFO 9212 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:24:30.192  INFO 9212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:24:30.194  INFO 9212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:24:30.222  INFO 9212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-30 20:24:30.543  INFO 9212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$8b93072d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:24:30.550  INFO 9212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff479463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:24:30.771  INFO 9212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:24:30.791  INFO 9212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:24:30.792  INFO 9212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:24:30.902  INFO 9212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:24:30.903  INFO 9212 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1445 ms
+2019-06-30 20:24:31.396  INFO 9212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:24:31.506  INFO 9212 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:24:31.764  INFO 9212 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:24:31.788  INFO 9212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:24:31.790  INFO 9212 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.771 seconds (JVM running for 3.51)
+2019-06-30 20:24:35.650  INFO 9212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:24:35.651  INFO 9212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:24:35.659  INFO 9212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-30 20:24:52.168  INFO 9212 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-30 20:24:52.298  INFO 9212 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-30 20:27:35.584  INFO 7944 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 7944 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:27:35.586  INFO 7944 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:27:36.319  INFO 7944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:27:36.322  INFO 7944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:27:36.347  INFO 7944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-30 20:27:36.678  INFO 7944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$bde8a124] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:27:36.685  INFO 7944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$319d2e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:27:36.898  INFO 7944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:27:36.919  INFO 7944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:27:36.920  INFO 7944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:27:37.018  INFO 7944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:27:37.019  INFO 7944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1385 ms
+2019-06-30 20:27:37.519  INFO 7944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:27:37.623  INFO 7944 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:27:37.886  INFO 7944 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:27:37.917  INFO 7944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:27:37.921  INFO 7944 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.727 seconds (JVM running for 3.476)
+2019-06-30 20:27:48.749  INFO 7944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:27:48.749  INFO 7944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:27:48.759  INFO 7944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-30 20:28:30.848  INFO 1648 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 1648 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:28:30.851  INFO 1648 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:28:31.725  INFO 1648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:28:31.727  INFO 1648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:28:31.760  INFO 1648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-06-30 20:28:32.129  INFO 1648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$132dc6aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:28:32.136  INFO 1648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86e253e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:28:32.371  INFO 1648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:28:32.395  INFO 1648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:28:32.395  INFO 1648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:28:32.542  INFO 1648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:28:32.542  INFO 1648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1645 ms
+2019-06-30 20:28:33.083  INFO 1648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:28:33.197  INFO 1648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:28:33.465  INFO 1648 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:28:33.493  INFO 1648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:28:33.497  INFO 1648 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.034 seconds (JVM running for 3.955)
+2019-06-30 20:28:37.546  INFO 1648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:28:37.546  INFO 1648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:28:37.553  INFO 1648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-30 20:29:35.428  INFO 6044 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 6044 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:29:35.431  INFO 6044 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:29:36.117  INFO 6044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:29:36.119  INFO 6044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:29:36.145  INFO 6044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-30 20:29:36.492  INFO 6044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$66ad439e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:29:36.505  INFO 6044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da61d0d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:29:36.798  INFO 6044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:29:36.821  INFO 6044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:29:36.822  INFO 6044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:29:36.941  INFO 6044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:29:36.941  INFO 6044 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1465 ms
+2019-06-30 20:29:37.554  INFO 6044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:29:37.681  INFO 6044 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:29:38.004  INFO 6044 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:29:38.040  INFO 6044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:29:38.044  INFO 6044 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 3.177 seconds (JVM running for 4.261)
+2019-06-30 20:29:40.741  INFO 6044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:29:40.742  INFO 6044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:29:40.748  INFO 6044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 20:29:47.533  INFO 6044 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:29:50.881  INFO 7936 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 7936 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:29:50.883  INFO 7936 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:29:51.731  INFO 7936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:29:51.733  INFO 7936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:29:51.761  INFO 7936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-30 20:29:52.074  INFO 7936 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$5166fd9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:29:52.080  INFO 7936 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c51b8ad5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:29:52.316  INFO 7936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:29:52.344  INFO 7936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:29:52.344  INFO 7936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:29:52.446  INFO 7936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:29:52.446  INFO 7936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1507 ms
+2019-06-30 20:29:52.970  INFO 7936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:29:53.080  INFO 7936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:29:53.350  INFO 7936 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:29:53.375  INFO 7936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:29:53.378  INFO 7936 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.871 seconds (JVM running for 3.631)
+2019-06-30 20:29:55.819  INFO 7936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:29:55.820  INFO 7936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:29:55.826  INFO 7936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-30 20:30:23.472  INFO 14620 --- [main] c.z.a.AdminProjectApplication            : Starting AdminProjectApplication on DESKTOP-BPQSV4K with PID 14620 (F:\ideaWorkSpace\admin-project\target\classes started by Zhu in F:\ideaWorkSpace\admin-project)
+2019-06-30 20:30:23.486  INFO 14620 --- [main] c.z.a.AdminProjectApplication            : No active profile set, falling back to default profiles: default
+2019-06-30 20:30:24.249  INFO 14620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 20:30:24.251  INFO 14620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 20:30:24.278  INFO 14620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-30 20:30:24.552  INFO 14620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zhuzhixu.adminproject.config.RedisConfig$$EnhancerBySpringCGLIB$$2f8f262c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:30:24.559  INFO 14620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a343b362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 20:30:24.788  INFO 14620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 20:30:24.809  INFO 14620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 20:30:24.810  INFO 14620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-30 20:30:24.923  INFO 14620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-30 20:30:24.923  INFO 14620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1368 ms
+2019-06-30 20:30:25.436  INFO 14620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 20:30:25.547  INFO 14620 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 20:30:25.829  INFO 14620 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-30 20:30:25.855  INFO 14620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-30 20:30:25.857  INFO 14620 --- [main] c.z.a.AdminProjectApplication            : Started AdminProjectApplication in 2.702 seconds (JVM running for 3.47)
+2019-06-30 20:30:28.176  INFO 14620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 20:30:28.176  INFO 14620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 20:30:28.182  INFO 14620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
