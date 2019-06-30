@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
@@ -31,18 +32,22 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/login")
-    public String userLogin(String username, String password, HttpServletRequest request){
+    public String userLogin(@RequestParam("username") String username,
+                            @RequestParam("password") String password,
+                            HttpServletRequest request){
         UserEntity entity = userService.getUserEntity(username);
         if(entity == null){
+            request.getSession().setAttribute("message","密码错误或者用户名不存在");
             return "login";
         }
         Boolean flag = entity.getPassword().equals(MD5Util.getMD5(password));
         if (flag){
+            request.getSession().invalidate();
             request.getSession().setAttribute("USER_LOGIN", entity);
             request.getSession().setAttribute("userList", userService.getAllUser());
             return "redirect:index";
         }
-        request.setAttribute("message","密码错误或者用户名不存在");
+        request.getSession().setAttribute("message","密码错误或者用户名不存在");
         return "login";
     }
 

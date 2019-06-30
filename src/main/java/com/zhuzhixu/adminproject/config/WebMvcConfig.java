@@ -24,7 +24,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
     /**
      *
      * @return 返回localeResolver 处理国际化
-     * 因为是自定义的localrosolver默认不带参数的时候会使用系统的国际化
      */
     @Bean
     public LocaleResolver localeResolver(){
