@@ -23,4 +23,8 @@ public class UserService {
     public void insertUserEntity(String username, String password){
         userMapper.insertUserEntity(username, password);
     }
+
+    public UserEntity getUserEntity(long id){
+        return userMapper.getUserEntityById(id);
+    }
 }

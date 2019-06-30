@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +10,11 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
     />
     <!-- https://fonts.google.com/specimen/Roboto -->
-    <link rel="stylesheet" href="../static/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
     <!-- https://fontawesome.com/ -->
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- https://getbootstrap.com/ -->
-    <link rel="stylesheet" href="../static/css/templatemo-style.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
 
   </head>
 
@@ -33,7 +33,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto h-100">
               <li class="nav-item">
-                <a class="nav-link active" href="/index">
+                <a class="nav-link " href="/index">
                   <i class="fas fa-tachometer-alt"></i>
                   Dashboard
                   <span class="sr-only">(current)</span>
@@ -62,7 +62,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/accounts">
+                <a class="nav-link active" href="/accounts">
                   <i class="far fa-user"></i>
                   Accounts
                 </a>
@@ -99,12 +99,8 @@
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
               <h2 class="tm-block-title">List of Accounts</h2>
               <p class="text-white">Accounts</p>
-              <select class="custom-select">
-                <option value="0">Select account</option>
-                <option value="1">Admin</option>
-                <option value="2">Editor</option>
-                <option value="3">Merchant</option>
-                <option value="4">Customer</option>
+              <select class="custom-select" onchange="getUserDetail()">
+                <option value="0" id="user" th:each="item : ${session.userList}" th:value="${item.id}" th:checked="true">[[${item.username}]]</option>
               </select>
             </div>
           </div>
@@ -116,7 +112,7 @@
               <h2 class="tm-block-title">Change Avatar</h2>
               <div class="tm-avatar-container">
                 <img
-                  src="../static/img/avatar.png"
+                  src="img/avatar.png"
                   alt="Avatar"
                   class="tm-avatar img-fluid mb-4"
                 />
@@ -210,9 +206,32 @@
       </footer>
     </div>
 
-    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <!-- https://jquery.com/download/ -->
-    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- https://getbootstrap.com/ -->
+  <script>
+    $(document).ready(function () {
+      $(".custom-select option:first").attr("checked","checked");
+      getUserDetail()
+    })
+    function getUserDetail() {
+      let id = $("#user:checked").val()
+      $.ajax({
+        url:"/getUserDetail",
+        dataType: "json",
+        type:"post",
+        data:{
+          "id": id
+        },
+        success: function (data) {
+          $("#name").attr("value", data.data.username)
+        },
+        error:function (data) {
+          alert(data.message)
+        }
+      })
+    }
+  </script>
   </body>
 </html>
