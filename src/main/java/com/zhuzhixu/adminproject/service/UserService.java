@@ -27,4 +27,12 @@ public class UserService {
     public UserEntity getUserEntity(long id){
         return userMapper.getUserEntityById(id);
     }
+
+    public void delteUserEntity(long id){
+        userMapper.deleteUserEntity(id);
+    }
+
+    public void updateUserEntity(String username, String password, long id){
+        userMapper.updateUserEntity(username, password, id);
+    }
 }

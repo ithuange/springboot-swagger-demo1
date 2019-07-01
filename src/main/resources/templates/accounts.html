@@ -10,11 +10,11 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
     />
     <!-- https://fonts.google.com/specimen/Roboto -->
-    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/css/fontawesome.min.css" />
     <!-- https://fontawesome.com/ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!-- https://getbootstrap.com/ -->
-    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="/css/templatemo-style.css">
 
   </head>
 
@@ -112,7 +112,7 @@
               <h2 class="tm-block-title">Change Avatar</h2>
               <div class="tm-avatar-container">
                 <img
-                  src="img/avatar.png"
+                  src="/img/avatar.png"
                   alt="Avatar"
                   class="tm-avatar img-fluid mb-4"
                 />
@@ -179,6 +179,7 @@
                   <button
                     type="submit"
                     class="btn btn-primary btn-block text-uppercase"
+                    onclick="updateAccount()"
                   >
                     Update Your Profile
                   </button>
@@ -187,6 +188,7 @@
                   <button
                     type="submit"
                     class="btn btn-primary btn-block text-uppercase"
+                    onclick="deleteAccount()"
                   >
                     Delete Your Account
                   </button>
@@ -206,9 +208,9 @@
       </footer>
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
     <!-- https://jquery.com/download/ -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- https://getbootstrap.com/ -->
   <script>
     $(document).ready(function () {
@@ -228,6 +230,51 @@
           $("#name").attr("value", data.data.username)
         },
         error:function (data) {
+          alert(data.message)
+        }
+      })
+    }
+
+    function deleteAccount() {
+      let id = $("#user:checked").val()
+      $.ajax({
+        url: "/accounts/delete",
+        dataType: "json",
+        type: "post",
+        data: {
+          "id": id
+        },
+        success: function (data) {
+          alert(data.message)
+        },
+        error: function (data) {
+          alert(data.message)
+        }
+      })
+    }
+
+    function updateAccount() {
+      let id = $("#user:checked").val()
+      let username = $("#name").val()
+      let password = $("#password").val()
+      let password2 = $("#password2").val()
+      if(password !== password2){
+        alert("密码不一致")
+        return
+      }
+      $.ajax({
+        url: "/accounts/update",
+        dataType: "json",
+        type: "post",
+        data: {
+          "id": id,
+          "username":username,
+          "password":password
+        },
+        success: function (data) {
+          alert(data.message)
+        },
+        error: function (data) {
           alert(data.message)
         }
       })
