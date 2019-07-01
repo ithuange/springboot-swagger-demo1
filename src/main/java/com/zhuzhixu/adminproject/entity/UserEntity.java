@@ -8,6 +8,8 @@ import java.io.Serializable;
 public class UserEntity implements Serializable {
     private static final long serialVersionUID = -4980675678141125127L;
     private long id;
+    private String username;
+    private String password;
 
     public long getId() {
         return id;
@@ -16,9 +18,6 @@ public class UserEntity implements Serializable {
     public void setId(long id) {
         this.id = id;
     }
-
-    private String username;
-    private String password;
 
     public String getUsername() {
         return username;

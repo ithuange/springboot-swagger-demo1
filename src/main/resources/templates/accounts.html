@@ -279,6 +279,22 @@
         }
       })
     }
+
+    function updataImg() {
+      $.ajax({
+        url: '/upload',
+        type: 'POST',
+        cache: false,
+        data: new FormData($('#uploadForm')[0]),
+        processData: false,
+        contentType: false
+      }).done(function(res) {
+
+      }).fail(function(res) {
+        alert(res.message)
+      });
+
+    }
   </script>
   </body>
 </html>
