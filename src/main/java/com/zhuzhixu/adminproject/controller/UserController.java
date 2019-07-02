@@ -1,6 +1,7 @@
 package com.zhuzhixu.adminproject.controller;
 
 import com.zhuzhixu.adminproject.entity.UserEntity;
+import com.zhuzhixu.adminproject.exception.UserException;
 import com.zhuzhixu.adminproject.service.UserService;
 import com.zhuzhixu.adminproject.util.MD5Util;
 import com.zhuzhixu.adminproject.util.MessageBody;
@@ -21,6 +22,9 @@ public class UserController {
 
     @RequestMapping({"/","/login.do"})
     public String first(){
+        if(1<2){
+            throw new UserException();
+        }
         return "login";
     }
 
@@ -30,6 +34,7 @@ public class UserController {
         session.setAttribute("userList", userService.getAllUser());
         return "index";
     }
+
 
     @RequestMapping(method = RequestMethod.POST, value = "/login")
     public String userLogin(@RequestParam("username") String username,
