@@ -11,14 +11,15 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 //@EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
+
     /**
      * 添加拦截器
      * @param registry
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new UserInterceptor()).addPathPatterns("/**")
-                .excludePathPatterns("/").excludePathPatterns("/login").excludePathPatterns("/register");
+        registry.addInterceptor(new UserInterceptor()).addPathPatterns("/**.do/**").excludePathPatterns("/login.do","/register.do");
+
     }
 
     /**
@@ -29,5 +30,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public LocaleResolver localeResolver(){
         return new SettingLocaleResolver();
     }
+
+
 
 }

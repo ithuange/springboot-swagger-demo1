@@ -12,7 +12,7 @@ public class UserInterceptor implements HandlerInterceptor {
         Object user_login = request.getSession().getAttribute("USER_LOGIN");
         if(user_login == null || ((UserEntity)user_login).getUsername()==null || ((UserEntity)user_login).getUsername().isEmpty()){
             request.getSession().invalidate();
-            response.sendRedirect("/login");
+            response.sendRedirect("/login.do");
             return false;
         }
         return true;

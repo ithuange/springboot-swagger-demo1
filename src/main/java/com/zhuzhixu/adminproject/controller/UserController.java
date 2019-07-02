@@ -19,13 +19,13 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping({"/","/login"})
+    @RequestMapping({"/","/login.do"})
     public String first(){
         return "login";
     }
 
 
-    @RequestMapping("/index")
+    @RequestMapping("/index.do")
     public String index(HttpSession session){
         session.setAttribute("userList", userService.getAllUser());
         return "index";
@@ -45,19 +45,19 @@ public class UserController {
             request.getSession().invalidate();
             request.getSession().setAttribute("USER_LOGIN", entity);
             request.getSession().setAttribute("userList", userService.getAllUser());
-            return "redirect:index";
+            return "index";
         }
         request.getSession().setAttribute("message","密码错误或者用户名不存在");
         return "login";
     }
 
-    @RequestMapping("/logout")
+    @RequestMapping("/logout.do")
     public String logout(HttpSession session){
         session.invalidate();
         return "redirect:/";
     }
 
-    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/register.do", method = RequestMethod.POST)
     @ResponseBody
     public MessageBody register(String username, String password){
         userService.insertUserEntity(username, MD5Util.getMD5(password));

@@ -18,13 +18,13 @@ public class AccountController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/accounts")
+    @RequestMapping("/accounts.do")
     public String account(HttpSession session){
         session.setAttribute("userList", userService.getAllUser());
         return "accounts";
     }
 
-    @RequestMapping(value = "/getUserDetail", method = RequestMethod.POST)
+    @RequestMapping(value = "/getUserDetail.do", method = RequestMethod.POST)
     @ResponseBody
     public MessageBody getUserDetail(@RequestParam("id") String id){
         UserEntity userEntity = userService.getUserEntity(Long.parseLong(id));
@@ -33,14 +33,14 @@ public class AccountController {
         }
         return MessageBody.failMessage("查询失败");
     }
-    @RequestMapping(value = "/accounts/delete", method = RequestMethod.POST)
+    @RequestMapping(value = "/accounts.do/delete", method = RequestMethod.POST)
     @ResponseBody
     public MessageBody deleteUser(String id){
         userService.delteUserEntity(Long.parseLong(id));
         return MessageBody.successMessage("删除成功");
     }
 
-    @RequestMapping(value = "/accounts/update", method = RequestMethod.POST)
+    @RequestMapping(value = "/accounts.do/update", method = RequestMethod.POST)
     @ResponseBody
     public MessageBody updateUser(String id, String username, String password){
         userService.updateUserEntity(username, MD5Util.getMD5(password), Long.parseLong(id));
