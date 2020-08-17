@@ -35,4 +35,8 @@ public class UserService {
     public void updateUserEntity(String username, String password, long id){
         userMapper.updateUserEntity(username, password, id);
     }
+
+    public List findAll() {
+        return null;
+    }
 }
