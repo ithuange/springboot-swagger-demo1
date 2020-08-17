@@ -26,11 +26,13 @@ public class AccountController {
     @ApiImplicitParam(paramType="query", name = "userNumber", value = "用户编号", required = true, dataType = "Integer")
     public String account(HttpSession session){
         session.setAttribute("userList", userService.getAllUser());
+        system.out.pritln("我是第二次测试数据")
         return "accounts";
     }
     @GetMapping("/findAll")
     public String findAll(@RequestParam("id") String id){
         List list = userService.findAll();
+       
         return "ok";
     }
 
