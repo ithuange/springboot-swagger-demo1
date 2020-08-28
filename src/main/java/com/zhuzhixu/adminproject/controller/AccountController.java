@@ -28,6 +28,7 @@ public class AccountController {
         session.setAttribute("userList", userService.getAllUser());
 //        system.out.pritln("我是第二次测试数据")
         System.out.println("我是第三次测试数据");
+        System.out.println("我是第四次测试数据");
         return "accounts";
     }
     @GetMapping("/findAll")
